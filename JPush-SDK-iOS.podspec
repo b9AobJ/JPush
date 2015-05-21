@@ -31,6 +31,6 @@ Pod::Spec.new do |s|
 
   s.frameworks = 'CFNetwork', 'CoreFoundation', 'CoreTelephony', 'SystemConfiguration', 'CoreGraphics', 'Foundation', 'UIKit', 'Security'
 
-  s.xcconfig = { 'OTHER_LDFLAGS' => '/usr/lib/libc++.dylib' }
+  s.xcconfig = { 'OTHER_LDFLAGS' => '/usr/lib/libz.dylib' }
 
 end
