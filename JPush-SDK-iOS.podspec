@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = 'JPush-SDK-iOS'
-  s.version      = '1.8.3'
+  s.version      = '1.8.3.1'
   s.summary      = 'JPush SDK for iOS'
 
   s.description  = <<-DESC
